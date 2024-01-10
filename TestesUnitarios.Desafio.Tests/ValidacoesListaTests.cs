@@ -42,10 +42,10 @@ public class ValidacoesListaTests
         var numeroParaProcurar = 10;
 
         // Act
-        var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
+        var contem = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         // Assert
-        Assert.False(resultado);
+        Assert.False(contem);
 
     }
 
